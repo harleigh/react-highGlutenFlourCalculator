@@ -1,0 +1,14 @@
+styles {
+  font-family: "sans-serif";
+}
+.wrapperStyle {
+  display: flex;
+}
+
+.labelStyle {
+  flex: 1;
+}
+
+.inputStyle {
+  flex: 3;
+}
