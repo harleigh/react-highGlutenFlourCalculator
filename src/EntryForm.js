@@ -22,10 +22,10 @@ export function EntryForm({ calcData, setCalcData }) {
   };
   return (
     <div className="entryForm">
-      <h4>
-        Don't convert percentages to decimal (e.g. eleven point five percent
-        should be entered as "11.5").
-      </h4>
+      <h5>
+        Don't convert percentages to decimal (e.g. ten point five percent should
+        be entered as "10.5").
+      </h5>
 
       <form onSubmit={handleSubmit}>
         <div className={"wrapperStyle"}>
@@ -41,12 +41,14 @@ export function EntryForm({ calcData, setCalcData }) {
         </div>
 
         <div className={"wrapperStyle"}>
-          <label className={"labelStyle"}>Desired Amount of Flour:</label>
+          <label className={"labelStyle"}>
+            Desired Amount of Flour (grams):
+          </label>
           <input
             className={"inputStyle"}
             type={"text"}
             name="desiredGramsFlour"
-            placeholder={"2000"}
+            placeholder={"2000 g"}
             value={calcData.desiredGramsFlour}
             onChange={handleDataEntry}
           />
@@ -60,7 +62,7 @@ export function EntryForm({ calcData, setCalcData }) {
             className={"inputStyle"}
             type={"text"}
             name="currentFlourGlutenPercent"
-            placeholder={"11.5"}
+            placeholder={"11.5%"}
             value={calcData.currentFlourGlutenPercent}
             onChange={handleDataEntry}
           />
@@ -74,7 +76,7 @@ export function EntryForm({ calcData, setCalcData }) {
             className={"inputStyle"}
             type={"text"}
             name="variableWheatGlutenPrecent"
-            placeholder={"75"}
+            placeholder={"75%"}
             value={calcData.variableWheatGlutenPrecent}
             onChange={handleDataEntry}
           />
