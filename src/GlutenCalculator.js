@@ -38,7 +38,7 @@ export function GlutenCalculator({ calcData }) {
         <div className={"wrapperStyle"}>
           <label className={"labelStyleGrey"}>
             Amount of flour (at {calcData.currentFlourGlutenPercent}% gluten)
-            required:
+            required:{" "}
           </label>
 
           <label className={"labelStyle"}>{amtFlourReq} grams.</label>
