@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-highGlutenFlourCalculator/static/css/main.7daeff7f.css",
-    "main.js": "/react-highGlutenFlourCalculator/static/js/main.cf03936b.js",
+    "main.js": "/react-highGlutenFlourCalculator/static/js/main.02b6a175.js",
     "index.html": "/react-highGlutenFlourCalculator/index.html",
     "main.7daeff7f.css.map": "/react-highGlutenFlourCalculator/static/css/main.7daeff7f.css.map",
-    "main.cf03936b.js.map": "/react-highGlutenFlourCalculator/static/js/main.cf03936b.js.map"
+    "main.02b6a175.js.map": "/react-highGlutenFlourCalculator/static/js/main.02b6a175.js.map"
   },
   "entrypoints": [
     "static/css/main.7daeff7f.css",
-    "static/js/main.cf03936b.js"
+    "static/js/main.02b6a175.js"
   ]
 }
