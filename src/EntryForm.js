@@ -29,7 +29,7 @@ export function EntryForm({ calcData, setCalcData }) {
 
       <form onSubmit={handleSubmit}>
         <div className={"wrapperStyle"}>
-          <label className={"labelStyle"}>Desired Gluten Percentage:</label>
+          <label className={"labelStyleGrey"}>Desired Gluten Percentage:</label>
           <input
             className={"inputStyle"}
             type={"text"}
@@ -53,7 +53,7 @@ export function EntryForm({ calcData, setCalcData }) {
         </div>
 
         <div className={"wrapperStyle"}>
-          <label className={"labelStyle"}>
+          <label className={"labelStyleGrey"}>
             Current Flour's Gluten Percentage:
           </label>
           <input

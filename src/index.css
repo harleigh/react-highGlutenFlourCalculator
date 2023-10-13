@@ -3,12 +3,34 @@ styles {
 }
 .wrapperStyle {
   display: flex;
+  padding: 5px;
 }
 
 .labelStyle {
-  flex: 1;
+  flex: 1 1 auto;
+  max-width: 400px;
+}
+
+.labelStyleGrey {
+  flex: 1 1 auto;
+  max-width: 400px;
+  background-color: #d3d3d3;
 }
 
 .inputStyle {
-  flex: 3;
+  flex: 1 1 auto;
+  max-width: 70px;
+}
+
+.mainApp {
+  border-style: solid;
+  border-color: red;
+  margin: auto;
+  width: 60%;
+  padding-left: 20px;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: 500;
 }

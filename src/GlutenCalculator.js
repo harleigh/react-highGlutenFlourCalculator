@@ -36,7 +36,7 @@ export function GlutenCalculator({ calcData }) {
         </h3>
 
         <div className={"wrapperStyle"}>
-          <label className={"labelStyle"}>
+          <label className={"labelStyleGrey"}>
             Amount of flour (at {calcData.currentFlourGlutenPercent}% gluten)
             required:
           </label>
