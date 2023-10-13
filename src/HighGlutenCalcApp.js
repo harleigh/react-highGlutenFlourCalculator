@@ -8,7 +8,7 @@ export default function HighGlutenCalcApp() {
   const [calcData, setCalcData] = useState(initialValues);
   return (
     <div className="mainApp">
-      <h3>High Gluten Calculator</h3>
+      <div className="title">High Gluten Flour Calculator</div>
       <EntryForm calcData={calcData} setCalcData={setCalcData} />
       <GlutenCalculator calcData={calcData} />
     </div>
