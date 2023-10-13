@@ -31,7 +31,7 @@ export function GlutenCalculator({ calcData }) {
     return (
       <>
         <h3>
-          To acheive {calcData.desiredGramsFlour} grams of flour at{" "}
+          To achieve {calcData.desiredGramsFlour} grams of flour at{" "}
           {calcData.desiredGlutenPercent}% gluten:
         </h3>
 
