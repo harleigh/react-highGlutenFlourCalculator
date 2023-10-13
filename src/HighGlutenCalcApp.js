@@ -11,7 +11,6 @@ export default function HighGlutenCalcApp() {
       <h3>High Gluten Calculator</h3>
       <EntryForm calcData={calcData} setCalcData={setCalcData} />
       <GlutenCalculator calcData={calcData} />
-      {console.log(calcData)}
     </div>
   );
 }
