@@ -31,21 +31,26 @@ export function GlutenCalculator({ calcData }) {
     return (
       <>
         <h3>
-          To acheive {calcData.desiredGramsFlour} grams of high gluten flour at
-          a gluten percentage of {calcData.desiredGlutenPercent}:
+          To acheive {calcData.desiredGramsFlour} grams of flour at{" "}
+          {calcData.desiredGlutenPercent}% gluten:
         </h3>
 
         <div className={"wrapperStyle"}>
           <label className={"labelStyle"}>
-            Amount of flour (at {calcData.currentFlourGlutenPercent} percent
-            gluten) required: {amtFlourReq} grams.
+            Amount of flour (at {calcData.currentFlourGlutenPercent}% gluten)
+            required:
           </label>
+
+          <label className={"labelStyle"}>{amtFlourReq} grams.</label>
         </div>
 
         <div className={"wrapperStyle"}>
           <label className={"labelStyle"}>
             Amount of Variable Wheat Gluten (at{" "}
-            {calcData.variableWheatGlutenPrecent}) required:{" "}
+            {calcData.variableWheatGlutenPrecent}% protein) required:{" "}
+          </label>
+
+          <label className={"labelStyle"}>
             {calcData.desiredGramsFlour - amtFlourReq} grams.
           </label>
         </div>
