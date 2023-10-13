@@ -22,10 +22,10 @@ export function EntryForm({ calcData, setCalcData }) {
   };
   return (
     <div className="entryForm">
-      <h3>
+      <h4>
         Don't convert percentages to decimal (e.g. eleven point five percent
         should be entered as "11.5").
-      </h3>
+      </h4>
 
       <form onSubmit={handleSubmit}>
         <div className={"wrapperStyle"}>
